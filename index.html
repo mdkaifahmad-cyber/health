@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A blog about health, fitness, and wellness. Get tips, advice, and routines to live a healthy and fit lifestyle.">
+    <title>Your Health & Fitness Blog</title>
+    <link rel="stylesheet" href="kaif.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <header class="blog-header">
+                <img src="blog.jpg" alt="FitLifeTrack Logo" class="logo">
+                <span class="blog-name">FitLifeTrack</span>
+        
+            </header>
+            <ul>
+                <li><a href="#health-wellness">Health and wellness</a></li>
+                <li><a href="#nutrition">Nutrition</a></li>
+                <li><a href="#fitness">Fitness</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#newsletter">Subscribe</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Hero Section with Running Video -->
+        <div class="hero">
+            <video autoplay muted loop>
+                <source src="kaif.mp4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-content">
+                <h1>Welcome to Your Health and Fitness Blog</h1>
+                <a href="#blog" class="button">Read the Blog</a>
+            </div>
+        </div>
+
+        <!-- Blog Posts Section -->
+        <section class="blog-posts">
+            <div class="blog-post">
+                <img src="image1.jpg" alt="Blog Post 1">
+                <div class="blog-content">
+                    <h3>Blog Post Title 1</h3>
+                    <p>This is a brief introduction to the blog post. It gives an overview of what the reader can expect...</p>
+                    <a href="link-to-blog-post-1" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="blog-post">
+                <img src="image2.jpg" alt="Blog Post 2">
+                <div class="blog-content">
+                    <h3>Blog Post Title 2</h3>
+                    <p>This is a brief introduction to the blog post. It gives an overview of what the reader can expect...</p>
+                    <a href="link-to-blog-post-2" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="blog-post">
+                <img src="image3.jpg" alt="Blog Post 3">
+                <div class="blog-content">
+                    <h3>Blog Post Title 3</h3>
+                    <p>This is a brief introduction to the blog post. It gives an overview of what the reader can expect...</p>
+                    <a href="link-to-blog-post-3" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="blog-post">
+                <img src="image4.jpg" alt="Blog Post 4">
+                <div class="blog-content">
+                    <h3>Blog Post Title 4</h3>
+                    <p>This is a brief introduction to the blog post. It gives an overview of what the reader can expect...</p>
+                    <a href="link-to-blog-post-4" class="read-more">Read More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Newsletter Form Section -->
+    <section id="newsletter">
+        <h2>Subscribe to Our Weekly Newsletter</h2>
+        <p>Stay updated with the latest health and fitness tips.</p>
+        <form class="newsletter-form" action="/submit-newsletter" method="POST">
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" required placeholder="Your email address">
+
+            <label for="genre">Choose your preference:</label>
+            <select id="genre" name="genre">
+                <option value="health-and-fitness" selected>Health and Fitness</option>
+                <option value="fat-loss">Fat Loss</option>
+                <option value="muscle-gain">Muscle Gain</option>
+                <option value="diet">Diet</option>
+                <option value="mental-wellness">Mental Wellness</option>
+            </select>
+
+            <div>
+                <input type="checkbox" id="single-opt-in" name="single-opt-in" required>
+                <label for="single-opt-in">I agree to subscribe for recieving weekly newsletter</label>
+                <p>Your privacy is important to us.</p>
+            </div>
+
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I’m Kaif, a fitness enthusiast passionate about helping others lead a healthier life.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Your Blog Name. All rights reserved.</p>
+        <div class="socials">
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+</body>
+</html>
